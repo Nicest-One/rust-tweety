@@ -6,11 +6,11 @@ use serde::{Serialize, Deserialize};
 
 
 #[derive(Serialize, Deserialize, Debug)]
-struct Text {
+pub struct Text {
     text: String
 }
 
-struct Bot {
+pub struct Bot {
     access_token: String
 }
 
