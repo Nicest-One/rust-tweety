@@ -14,5 +14,3 @@ fn main() {
     println!("{:?}", response.data);
 }
 ```
-## Notice
-⚠️ This is the first stable version of tweety, previous versions will not work!

@@ -1,6 +1,6 @@
 [package]
 name = "tweety"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2021"
 description="A wrapper for twitter v2.0 api written for rust."
 license = "MIT"
@@ -10,8 +10,8 @@ include = [
     "README.md",
     "LICENSE"
 ]
-homepage = "https://github.com/Nicest-One/tweety"
-repository = "https://github.com/Nicest-One/tweety"
+homepage = "https://github.com/Nicest-One/rust-tweety"
+repository = "https://github.com/Nicest-One/rust-tweety"
 keywords = [
     "tweety",
     "twitter",
