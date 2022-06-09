@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use reqwest::blocking::Client;
 use reqwest::StatusCode;
 use serde::{Serialize, Deserialize};
@@ -45,5 +47,5 @@ impl Bot {
 }
 
 fn main()  {
-    
+    println!("main.rs")
 }
