@@ -47,5 +47,4 @@ impl Bot {
 }
 
 fn main()  {
-    println!("main.rs")
 }
