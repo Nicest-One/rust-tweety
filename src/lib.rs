@@ -1,14 +1,5 @@
-//! # Tweety
-//! 
-//! A wrapper for twitter v2,0 api written for rust.
+#![allow(unused)]
 
-/// Creates a twitter Bot
-/// 
-/// # Example
-/// 
-/// ```
-/// let bot = tweety::Bot::new("twitter bot access token")
-/// ```
 use reqwest::blocking::Client;
 use reqwest::StatusCode;
 use serde::{Serialize, Deserialize};

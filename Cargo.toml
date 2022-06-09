@@ -1,6 +1,6 @@
 [package]
 name = "tweety"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description="A wrapper for twitter v2.0 api written for rust."
 license = "MIT"
