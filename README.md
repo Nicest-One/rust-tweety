@@ -10,7 +10,8 @@ fn main() {
     let bot = Bot::new(
         access_token: "twitter bot access token"
     )
-    bot.send_message("hello world!");
+    let response = bot.send_message("This is a test Tweet! :)").unwrap();
+    println!("{:?}", response.data);
 }
 ```
 ## Notice
